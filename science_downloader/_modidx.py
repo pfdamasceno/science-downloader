@@ -5,4 +5,12 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://pfdamasceno.github.io',
                 'git_url': 'https://github.com/pfdamasceno/science-downloader',
                 'lib_path': 'science_downloader'},
-  'syms': {'science_downloader.core': {'science_downloader.core.foo': ('core.html#foo', 'science_downloader/core.py')}}}
+  'syms': { 'science_downloader.core': {'science_downloader.core.foo': ('core.html#foo', 'science_downloader/core.py')},
+            'science_downloader.scidown': { 'science_downloader.scidown.download_pdfs_from_list_of_urls': ( 'core.html#download_pdfs_from_list_of_urls',
+                                                                                                            'science_downloader/scidown.py'),
+                                            'science_downloader.scidown.download_wait': ( 'core.html#download_wait',
+                                                                                          'science_downloader/scidown.py'),
+                                            'science_downloader.scidown.extract_science_pdf_urls_from_toc_page': ( 'core.html#extract_science_pdf_urls_from_toc_page',
+                                                                                                                   'science_downloader/scidown.py'),
+                                            'science_downloader.scidown.remove_extra_page': ( 'core.html#remove_extra_page',
+                                                                                              'science_downloader/scidown.py')}}}
